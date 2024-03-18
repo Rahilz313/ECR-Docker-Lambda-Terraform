@@ -3,7 +3,7 @@ resource "aws_lambda_function" "my_lambda_function" {
   role          = "arn:aws:iam::655625281801:role/LambdaS3Role"
  
 
-  runtime = "provided.al2"  # Use "provided.al2" for custom runtime like Docker
+ 
 
   image_uri = "655625281801.dkr.ecr.us-east-1.amazonaws.com/terraform-repo:latest"
 
